@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align:center;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+.nav-link {
+  padding: 2em;
+  color: #F0F1F4;
+  postition: fixed;
+}
+
+.nav-link:hover {
+  background-color: #69D2E7;
+}
+
+#navbar {
+  background-color: #2FB1E5;
+  padding: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-shadow: grey 1px 1px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#welcome-section {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #343838;
+  color: #F0F1F4;
+  font-size: 1.8em;
+  height: 100vh;
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}
+
+#web-based-projects {
+  padding-top: 6em;
+}
+
+#other-programming-projects {
+  padding-top: 6em;
+}
+
+#hardware-projects {
+  padding-top: 6em;
+}
+
+#contact-me {
+  padding-top: 6em;
+}
+
+#projects {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #2797c4;
+  color: #F0F1F4;
+  font-size: 1.2em;
+}
+
+.project-tile {
+  background-color: #69D2E7;
+  color: #F0F1F4;
+  width: 300px;
+  height: 300px;
+  margin: 2em;
+  display: block;
+  text-shadow: grey 1px 1px;
+  font-family: 'Noto Sans TC', sans-serif;
+  box-shadow: 8px 8px #343838;
+  
+}
+
+.profile-link {
+  margin: 2em;
+}
+
+#web-container {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#other-programming-container {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#other-programming-container {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#hardware-container {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#contact-container {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #343838;
+  color: #F0F1F4;
+  text-align: center;
+  padding: 1.2em;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-link {
+  padding: 1em;
+  }
+  
+  #navbar {
+  padding: 1em;
+  font-size: 1em;
+  }
+  
+  #welcome-section {
+  font-size: 1.4em;
+  padding-top: 6em;
+   top: 0px;
+  }
+  
+  #web-based-projects {
+  padding-top: 4em;
+  }
+
+  #other-programming-projects {
+  padding-top: 4em;
+  }
+
+  #hardware-projects {
+  padding-top: 4em;
+  }
+
+  #contact-me {
+  padding-top: 4em;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  h3 {
+  font-size: 1.2em;
+  }
+ 
+  .nav-link {
+  padding: 0.5em;
+  }
+  
+  #navbar {
+  padding: 0.5em;
+  font-size: 0.8em;
+  }
+  
+  #welcome-section {
+  font-size: 1em;
+  padding-top: 4em;
+  top: 0px;
+  }
+  
+  #web-based-projects {
+  padding-top: 2em;
+  }
+
+  #other-programming-projects {
+  padding-top: 2em;
+  }
+
+  #hardware-projects {
+  padding-top: 2em;
+  }
+
+  #contact-me {
+  padding-top: 2em;
+  }
+
+}
